@@ -21,7 +21,6 @@ body {
 }
 .discord-icon img {
   height: 40px;
-  margin-top: 0.3rem;
   border-radius: 15px;
 }
 .all-servers {
@@ -41,17 +40,18 @@ body {
   justify-content: center;
   color: white;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 /* friend section  */
 
 .friend-section {
   height: 100vh;
-  width: 25%;
+  width: 20%;
   background-color: #2F3136;
 }
 .search-bar {
-  padding: 0.8rem;
+  padding:0.9rem;
   padding-bottom: 0.4rem;
 }
 .search-input {
@@ -59,7 +59,6 @@ body {
   border: none;
   outline: none;
   padding: 5px;
-  margin-top: 0.4rem;
   width: 100%;
   border-radius: 5px;
 }
@@ -133,7 +132,6 @@ body {
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin-top: 0.3rem;
 }
 .nav-link {
   display: flex;
@@ -165,6 +163,10 @@ body {
 .left {
   width: 70%;
   border-right: 1px solid rgb(96, 96, 96);
+  background-image: url(./assets/discord-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .box {
   padding: 1rem 2rem;
@@ -190,6 +192,7 @@ body {
   border: none;
   border-radius: 0.5rem;
   font-size: 1rem;
+  color: white;
 }
 .friend-req-button {
   position: absolute;
